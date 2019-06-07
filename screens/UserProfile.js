@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import { Button } from 'native-base';
 import { Feather, Entypo } from '@expo/vector-icons';
 
 class UserProfile extends Component {
@@ -32,7 +31,6 @@ class UserProfile extends Component {
     let url = this.props.navigation.getParam('url', '');
     let dob = this.props.navigation.getParam('dob', '');
     location = this.props.navigation.getParam('location', '');
-    console.log(url);
     this.setState({
       name,
       cell,

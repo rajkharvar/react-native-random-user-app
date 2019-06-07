@@ -9,7 +9,7 @@ import {
   Image,
   ActivityIndicator
 } from 'react-native';
-import { Button, Card } from 'native-base';
+import { Card } from 'native-base';
 import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import HighLighter from 'react-native-highlight-words';
 import axios from 'axios';
